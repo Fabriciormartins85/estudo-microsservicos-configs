@@ -1,12 +1,12 @@
 server:
-  port:
-    8082
+  port: 8082
+  
 spring:
     redis:
      database: 0
      host: localhost
-     port:6379
-     timeout:60000
+     port: 6379
+     timeout: 60000
     
 eureka:
   instance: 
